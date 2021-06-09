@@ -87,14 +87,57 @@ Vue, Vue-Router, Element-UI, Axios, Echarts
             'space-before-function-paren' : 0
         }
 
+
+# 添加登录
+
+    在components中新建Login.vue组件
+
+    在router中导入组件并配置路由规则
+
+    在assets下新建css文件夹，创建global.css全局样式，并在main.js导入
+
+    Login.vue登录表单使用el-form
+
+    在plugin文件夹打开elements.js，进行elementsui的按需导入
+
+    在main.js导入axios，完成网络配置
+
+    登录完成之后，把token保存到sessionStorage中
+
+    添加路由守卫，没有token的，跳转到登录页
+
+
+# 首页骨架搭建
+
+    使用el-container,el-header,el-aside,el-main搭建骨架结构
+
+    封装请求拦截器，报文头加上Authorization
+
+# 侧边栏结构
+
+    使用el-menu,el-submenu创建二级菜单模板
+
+    请求侧边栏数据，使用双重v-for绑定菜单模板
+
+
+# 首页添加子级路由
+
+    创建Welcome子路由，为默认子级路由重定向
+
+    创建Users子路由
+
+# Users路由
+
+    使用面包屑组件el-breadcrumb导航
+
+    卡片视图el-card作为内容区域
+
+    请求用户列表数据
+
+    使用el-table展示用户数据
+
+    添加分页组件el-pagination
+
+    添加新用户el-dialog
+
     
-
-
-# 去除空格限制
-    
-    新建.prettierrc文件
-    
-
-    在.eslintrc.js添加rules
-    'space-before-function-paren' : 0
-
