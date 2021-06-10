@@ -126,7 +126,7 @@ Vue, Vue-Router, Element-UI, Axios, Echarts
 
     创建Users子路由
 
-# Users路由
+# Users组件
 
     使用面包屑组件el-breadcrumb导航
 
@@ -139,5 +139,24 @@ Vue, Vue-Router, Element-UI, Axios, Echarts
     添加分页组件el-pagination
 
     添加新用户el-dialog
+
+# Rights组件
+
+    面包屑组件el-breadcrumb导航
+
+    请求权限列表数据
+
+# Role组件
+
+    面包屑组件el-breadcrumb导航
+
+    请求权限角色数据
+
+    角色的权限数据
+
+    分配角色权限
+
+    分配用户角色
+
 
     
