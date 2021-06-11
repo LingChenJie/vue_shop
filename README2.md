@@ -159,4 +159,13 @@ Vue, Vue-Router, Element-UI, Axios, Echarts
     分配用户角色
 
 
+# Goods分类组件
+
+    tree-table使用
+
+    el-cascader级联组件使用
+
+    
+
+
     
