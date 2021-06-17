@@ -167,5 +167,28 @@ Vue, Vue-Router, Element-UI, Axios, Echarts
 
     
 
+# 项目优化
+
+    生成打包报告
+        
+        vue-cli 3.0生成的项目，隐藏了webpack配置项，如果需要配置，需要通过vue.config.js来配置
+
+
+
+    第三方库启动CDN
+
+        默认依赖的第三方包都会被打包到js/chunk-vendors.**.js文件中，导致该文件过大，可以通过externals排除这些包
+
+
+
+    Element-UI组件按需加载
+
+    路由懒加载
+
+        安装@babel/plugin-syntax-dynamic-import开发依赖
+
+
+
+    首页内容定制化
 
     
